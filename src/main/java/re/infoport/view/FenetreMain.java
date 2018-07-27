@@ -68,6 +68,7 @@ public class FenetreMain {
         f.button1.addActionListener(e -> {
             f.connectToFtp();
         });
+        // Faire une boucle for
         f.tree1.addTreeSelectionListener(e ->
         {
             DefaultMutableTreeNode selected=(DefaultMutableTreeNode)f.tree1.getLastSelectedPathComponent();
