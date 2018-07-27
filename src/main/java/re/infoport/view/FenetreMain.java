@@ -63,7 +63,7 @@ public class FenetreMain {
 
             File cle=fileChooser.getSelectedFile();*/
            // f.connectToSSH();
-        if(true) f.consommeRestGET();
+        if(f==null) f.consommeRestGET();
        f.consommeRestPOST();
         f.button1.addActionListener(e -> {
             f.connectToFtp();
